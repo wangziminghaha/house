@@ -1,0 +1,269 @@
+*{
+    margin: 0;padding: 0;
+}
+.swiper-container{
+    width: 100%;
+    height: auto;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.boxd{
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    width: 100%;
+}
+.boxd p:nth-of-type(1){
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.boxd p:nth-of-type(2){
+    font-size: 15px;
+    padding:6px 30px 10px 30px ;
+    background: url('../素材/image/SecondHandList/phone.png')  300px 0 no-repeat
+}
+.boxd span{
+    color:red;
+}
+.boxd p:nth-of-type(3){
+    font-size: 15px;
+    padding: 0px 30px;
+    color:#ccc;
+}
+.l{
+    padding: 17px 30px;
+}
+.l span{
+    display: inline-block;
+    width: .5rem;
+    color: rgb(159, 185, 233);
+    background-color: rgba(236, 220, 220, 0.8);
+    text-align: center;
+    font-size: .12rem;
+}
+.box2{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin: 10px 0;
+}
+.box2 ul{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+}
+.box2 ul li{
+    width: 50%;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    float: left;
+}
+.box2 ul .quan{
+    width: 100%;
+}
+.box2 ul li:nth-of-type(14){
+      width: 100%;
+    border:none;
+    color:#ccc;
+    text-align: center;
+}
+.box2 ul p{
+  
+   margin: 20px 0;
+}
+.tese{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}h4{
+    padding: 10px 35px;
+    font-size: 18px;
+    color: chocolate;
+}
+.tese p{
+    padding-bottom: 10px;
+    line-height: 20px;
+    margin: 0 auto;    
+    font-size: 12px;
+    width: 80%;
+    border-bottom: 1px solid #ccc;
+}
+ .tese a{
+     width: 100%;
+     text-align: center;
+ }
+ .tese p:nth-of-type(2){
+     text-align: center;
+     font-size: 15px;
+     color:#ccc;
+     padding: 10px;
+     border:none;
+ }
+ .huxing{
+    border-bottom: 1px solid #ccc;
+     margin: 10px 0;
+     border-top: 1px solid #ccc;
+ }
+ .huxing ul li{
+     margin: 0 auto;
+     width: 80%;
+    display: flex;
+    border-bottom: .01rem solid red;
+}
+.huxing ul li:nth-of-type(2){
+    border: none;
+}
+.left_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    text-align: center;
+}
+.left_ img{
+    width: 100%;
+}
+.right_{
+    width: 65%;
+    font-size: .15rem;
+    padding: 10px;
+}
+.huxing .p_{
+    margin: 0 auto;
+    width: 66%;
+    padding: 20px 20px 20px 40px;
+    font-size: 20px;
+    color: chocolate;
+    border-bottom: 1px solid #ccc;
+}
+.right_ h1{
+    font-weight: 800;
+    font-size: .17rem;
+    overflow: hidden;
+    width: 90%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#one{
+    font-size: 10px;
+    padding: 10px 0;
+}
+#three span{
+    font-size: 12px;
+    padding: 3px 5px;
+    background-color: rgb(231, 189, 189);
+}
+.student{
+    width: 100%;
+}
+.student ul li{
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    list-style: none;
+    width: 80%;
+    padding: 10px 0;
+}
+.student{
+    border-bottom: 1px solid #ccc;
+     margin: 10px 0;
+     border-top: 1px solid #ccc;
+ }
+.student ul li:nth-of-type(1){
+    font-size: 20px;
+    font-weight: 600;
+}
+.student ul li span{
+    color: #ccc;
+}
+.student ul li:nth-of-type(7){
+    font-size: 15px;
+    text-align: center;
+    border: none;
+}
+.map{
+    border-bottom: 1px solid #ccc;
+     margin: 20px 0;
+     border-top: 1px solid #ccc;
+}
+.map p{
+    border-bottom: 1px solid #ccc;
+    margin: 0 auto;
+    width: 80%;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#allmap {
+     width: 80%;
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 30px auto;
+    overflow: hidden;
+    margin:20px auto;
+    font-family:"微软雅黑";
+}
+    .over{
+        border-bottom: 1px solid #ccc;
+        margin: 20px 0;
+        border-top: 1px solid #ccc;
+    }
+    .over ul li{
+        display: flex;
+        border-bottom: .01rem solid red;
+    }
+    .left_{
+        width: 35%;
+        text-align: center;
+    }
+    .left_ img{
+        width: 70%;
+    }
+    .right_{
+        width: 65%;
+        font-size: .15rem;
+        margin-top: .1rem;
+    }
+    /* .right_ h1{
+        font-weight: 800;
+        font-size: .21rem;
+        overflow: hidden;
+        width: 90%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    } */
+    #four{
+        overflow: hidden;
+        font-size: 15px;
+    }
+    #four span:nth-of-type(2){
+        float: right;
+        margin-right: .4rem;
+        color: #ff8a00;
+        font-weight: 800;
+    }
+    #five{
+        overflow: hidden;
+    }
+    #five span:nth-of-type(2){
+        float: right;
+        margin-right: .4rem;
+        color: rgba(168, 165, 165, 0.8);
+    }
+    #six span{
+        display: inline-block;
+        width: .5rem;
+        color: rgb(159, 185, 233);
+        background-color: rgba(236, 220, 220, 0.8);
+        text-align: center;
+        font-size: .12rem;
+    }
+    .over ul li:nth-of-type(3){
+        border-bottom: none;
+    }
+    .over{
+        border-bottom: .01rem solid #ccc;
+    }
+    .over ul li:nth-of-type(2){
+        border: none;
+    }
+   

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+*{
+    margin: 0;padding: 0;
+}
+.body,html{
+    height: 100%;
+    opacity: .5;
+    background: url(./timg.jpg);
+    background-size: 200% 100%;
+}
+.box{
+    height: 200px;
+    margin: 10px auto;
+    font-size: 20px;
+    width: 80%;
+    background-color: #fff;
+    text-align: center;
+}
+input{
+    border: 1px solid #ccc;
+    width: 210px;
+    height: 20px;
+    margin-top: 20px;
+}
+button{
+    position: relative;
+    top:-20px;
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+</style>
+<body>
+    <div class="logo">
+        <img src="./素材/image/index/download.png" alt="">
+        <span>找房无忧</span>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <p> <span>手机号：</span> <input class="one" type="text"> </p>
+            <p> <span>密&nbsp;码：</span><input class="two" type="password"></p>
+            <br>
+            <br>
+            <br>
+            <button class="btn">注册</button>
+        </div>
+    </div>
+</body>
+
+<script src="./素材/js/zepto.js"></script>
+<script src="./素材/js/rem.js"></script>
+<script>
+    $('.btn').tap(function(){
+        
+    $.ajax({
+        url:'https://www.apiopen.top/createUser',
+        type:'GET',
+        dataType:'json',
+        data:{
+            key:'00d91e8e0cca2b76f515926a36db68f5',
+            iphone:$('.one').val(),
+            passwd:$('.two').val()
+        },
+        success:function(date){
+            console.log(date)
+        },
+        error:function(){
+    
+        }
+        
+    })
+    })
+</script>
+</html>

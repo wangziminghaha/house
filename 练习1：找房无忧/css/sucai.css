@@ -1,0 +1,69 @@
+html,body{
+    font-size: 100px;
+}
+.foter{
+    position: absolute;
+    bottom: 0;
+}
+*{margin: 0;padding: 0}
+.header{
+width: 100%;
+background-color: #ff8a00 ;
+display: flex;
+overflow: hidden;
+}
+.left{
+font-size: .1rem;
+}
+.left img{
+margin-left: .1rem;
+margin-top: .1rem;
+width: 75%;
+}
+.right{
+font-size: .1rem;
+margin-left: .4rem;
+}
+.right img{
+margin-top: .1rem;
+width: 40%;
+}
+.foter{
+width: 100%;
+position: relative;
+bottom: 0;
+background-color: #2f3130 ;
+color:#ccc;
+}
+.biao_{
+width: 100%;
+justify-content: center;
+display: flex;
+}
+.biao{
+padding: 10px 0;
+width:90%;
+font-size: .22rem;
+border-bottom: 1px solid #cccc;
+}
+.xia{
+font-size: .18rem;
+text-align: center;
+}
+.xia_{
+font-size: .12rem;
+text-align: center;
+}
+.main{
+padding: .2rem .12rem;
+font-size: .2rem;
+width: 80%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.duan{
+width: .62rem;
+margin-left: -.45rem;
+font-size: .15rem;
+}
